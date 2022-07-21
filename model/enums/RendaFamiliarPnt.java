@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 public enum RendaFamiliarPnt {
 
     RENDA_BAIXA(BigDecimal.ZERO, BigDecimal.valueOf(900), 5),
-    RENDA_MEDIA(BigDecimal.valueOf(900), BigDecimal.valueOf(1500), 3);
+    RENDA_MEDIA(BigDecimal.valueOf(901), BigDecimal.valueOf(1500), 3);
 
     private final BigDecimal menorValor;
     private final BigDecimal maiorValor;
